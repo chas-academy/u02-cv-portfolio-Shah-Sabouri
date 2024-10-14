@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad Flux', sans-serif;
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .vänster-sida {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.container .höger-sida {
+    position: relative;
+    background: white;
+    padding: 40px;
+}
