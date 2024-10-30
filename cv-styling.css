@@ -60,7 +60,16 @@ body {
 
 h2 {
   background: #00b6c4;
+  padding: 15px;
   color: #fff;
+  margin: 30px 0;
+  font-size: 20px;
+  border-radius: 0 50px 50px 0;
+}
+
+.right {
+  flex: 1;
+  padding: 30px;
 }
 
 p {
