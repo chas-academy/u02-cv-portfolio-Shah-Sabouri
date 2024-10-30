@@ -30,7 +30,7 @@ body {
   font-weight: 500;
 }
 
-.img area {
+.img-area {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -38,7 +38,7 @@ body {
   margin: 25px auto;
   border: 15px groove deepskyblue;
 }
-.img area img {
+.img-area img {
   width: 100%;
 }
 
