@@ -4,3 +4,19 @@ $containerColor: #f5f5f5;
 $primaryColor: #00b6c4;
 $secondaryColor: #04edff;
 
+body {
+    background: linear-gradient($primaryColor, $secondaryColor);
+}
+
+.container {
+    background: $containerColor;
+}
+
+h2 {
+    background: $primaryColor;
+    color: $headerText;
+}
+
+p {
+    color: $pText;
+}

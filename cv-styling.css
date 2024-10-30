@@ -1,1 +1,16 @@
-/*# sourceMappingURL=cv-styling.css.map */
+body {
+  background: linear-gradient(#00b6c4, #04edff);
+}
+
+.container {
+  background: #f5f5f5;
+}
+
+h2 {
+  background: #00b6c4;
+  color: #fff;
+}
+
+p {
+  color: #0D1B2A;
+}/*# sourceMappingURL=cv-styling.css.map */
